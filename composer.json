@@ -1,0 +1,19 @@
+{
+    "name": "danielkellyio/mailgun-mailable",
+    "description": "A trait to make your laravel mailables smarter about working with mailgun",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Kelly",
+            "email": "danielkelly@randallreilly.com"
+        }
+    ],
+    "require": {
+        "php" : "7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielKellyIO\\MailgunMailable\\": "src/"
+        }
+    }
+}
