@@ -44,3 +44,18 @@ class YourEmail extends Mailable {
 	}
 }
 ```
+
+### No mailable class? 
+Using send with a callback to compose message? Add tags and variables directly to messages like so:
+```php
+use DanielKellyIO\MailgunMailable\MailgunHelpers;
+
+Mail::send( 'your-email-template', [], function ( $m ) {
+    $m->to( 'test@test.com' )->subject( 'Test Email' );
+    MailgunHelpers::tags($m, ['tag-1', 'tag-2']);
+    MailgunHelpers::variables($m, [
+        'greeting' => 'Hello',
+        'name' => 'Daniel'
+    ]);
+});
+```
