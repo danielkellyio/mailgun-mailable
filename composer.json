@@ -2,10 +2,11 @@
     "name": "danielkellyio/mailgun-mailable",
     "description": "A trait to make your laravel mailables smarter about working with mailgun",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Daniel Kelly",
-            "email": "danielkelly@randallreilly.com"
+            "email": "me@danielkelly.io"
         }
     ],
     "require": {
