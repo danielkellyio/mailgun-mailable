@@ -5,7 +5,7 @@ A trait to make your laravel mailables smarter about working with mailgun.
 
 ### Installation
 ```
-composer install danielkellyio/mailgun-mailable
+composer require danielkellyio/mailgun-mailable
 ``` 
 
 ### Add tags to an email
