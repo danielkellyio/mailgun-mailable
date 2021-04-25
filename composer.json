@@ -9,9 +9,6 @@
             "email": "me@danielkelly.io"
         }
     ],
-    "require": {
-        "php" : "7.*"
-    },
     "autoload": {
         "psr-4": {
             "DanielKellyIO\\MailgunMailable\\": "src/"
